@@ -1,1 +1,1 @@
-# mdbt42q
+STM32F030 <-- UART --> MDBT42Q
