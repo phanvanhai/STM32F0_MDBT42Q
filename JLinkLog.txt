@@ -1,0 +1,36 @@
+
+T03C8 000:173 SEGGER J-Link V6.30h Log File (0000ms, 0011ms total)
+T03C8 000:173 DLL Compiled: Mar 16 2018 18:02:51 (0000ms, 0011ms total)
+T03C8 000:173 Logging started @ 2019-04-25 21:19 (0000ms, 0011ms total)
+T03C8 000:173 JLINK_SetWarnOutHandler(...) (0000ms, 0011ms total)
+T03C8 000:174 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N: 788529310
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0020ms, 0032ms total)
+T03C8 000:174 WEBSRV Webserver running on local port 19080 (0020ms, 0032ms total)
+T03C8 000:174   returns O.K. (0020ms, 0032ms total)
+T03C8 000:194 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0032ms total)
+T03C8 000:194 JLINK_TIF_GetAvailable(...) (0000ms, 0032ms total)
+T03C8 000:195 JLINK_SetErrorOutHandler(...) (0000ms, 0033ms total)
+T03C8 000:195 JLINK_ExecCommand("ProjectFile = "G:\Project\STM32F_KeilC\BLE_STM32F030F4_v9\JLinkSettings.ini"", ...). Device "CORTEX-M0" selected.  returns 0x00 (0137ms, 0170ms total)
+T03C8 000:332 JLINK_ExecCommand("Device = STM32F030C8Tx", ...). Device "CORTEX-M0" selected.  returns 0x00 (0002ms, 0172ms total)
+T03C8 000:334 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0172ms total)
+T03C8 000:334 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0172ms total)
+T03C8 000:334 JLINK_GetDLLVersion()  returns 63008 (0001ms, 0173ms total)
+T03C8 000:335 JLINK_GetFirmwareString(...) (0000ms, 0173ms total)
+T03C8 000:335 JLINK_GetDLLVersion()  returns 63008 (0000ms, 0173ms total)
+T03C8 000:335 JLINK_GetCompileDateTime() (0000ms, 0173ms total)
+T03C8 000:335 JLINK_GetFirmwareString(...) (0000ms, 0173ms total)
+T03C8 000:335 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0173ms total)
+T03C8 000:335 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0001ms, 0174ms total)
+T03C8 000:336 JLINK_SetSpeed(500) (0000ms, 0174ms total)
+T03C8 000:336 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0174ms total)
+T03C8 000:336 JLINK_Reset() >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0xC8 JTAG> >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0xC8 JTAG>JLINK_GetIdData(...) >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0xC8 JTAG> >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0xC8 JTAG> (0159ms, 0493ms total)
+T03C8 000:655 JLINK_GetIdData(...) >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0xC8 JTAG> >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0xC8 JTAG> (0160ms, 0653ms total)
+T03C8 000:830 JLINK_GetFirmwareString(...) (0000ms, 0653ms total)
+T03C8 007:441 JLINK_Close() (0014ms, 0667ms total)
+T03C8 007:441  (0014ms, 0667ms total)
+T03C8 007:441 Closed (0014ms, 0667ms total)
